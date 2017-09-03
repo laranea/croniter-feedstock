@@ -1,22 +1,22 @@
-{%set name = "croniter" %}
-{%set version = "0.3.17" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "9db0f313db21e38c6861e88f3649cb828dfc0d450994fb1ed20c279727fc811b" %}
-{%set build_num = "0" %}
+{% set name = "croniter" %}
+{% set version = "0.3.19" %}
+{% set bundle = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "7cf86afeb7af0e6de7d3fa33128a2bcdba74afe50fb4b936ad13b338d42d0c0b" %}
+{% set build = 0 %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  {{ hash_type }}: {{ hash }}
 
 build:
   preserve_egg_dir: True
-  number: {{ build_num }}
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
