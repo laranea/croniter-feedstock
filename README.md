@@ -14,9 +14,7 @@ Summary: croniter provides iteration for datetime object with cron like format
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/croniter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/croniter-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/croniter-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/croniter-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/croniter-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/croniter-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/croniter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/croniter-feedstock)
 
 Current release info
 ====================
