@@ -14,12 +14,15 @@ Summary: croniter provides iteration for datetime object with cron like format
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/croniter-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/croniter-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/croniter-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/croniter-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/croniter/badges/version.svg)](https://anaconda.org/conda-forge/croniter)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/croniter/badges/downloads.svg)](https://anaconda.org/conda-forge/croniter)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-croniter-green.svg)](https://anaconda.org/conda-forge/croniter) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/croniter.svg)](https://anaconda.org/conda-forge/croniter) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/croniter.svg)](https://anaconda.org/conda-forge/croniter) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/croniter.svg)](https://anaconda.org/conda-forge/croniter) |
 
 Installing croniter
 ===================
