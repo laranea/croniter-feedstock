@@ -1,8 +1,8 @@
 {% set name = "croniter" %}
-{% set version = "0.3.27" %}
+{% set version = "0.3.26" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "fbd72189a0ff38c27e953d15175c5fedafb953479559240a1afcf8e8e7523757" %}
+{% set hash = "4fcbcc6515d5721a975e065bb77f22e6e990eb0c1a023c454a661b871150d9f1" %}
 
 package:
   name: {{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://github.com/kiorky/croniter/archive/0.3.26.tar.gz
   {{ hash_type }}: {{ hash }}
 
 build:
